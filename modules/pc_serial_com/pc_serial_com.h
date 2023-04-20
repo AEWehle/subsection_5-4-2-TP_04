@@ -7,6 +7,17 @@
 
 //=====[Declaration of public data types]======================================
 
+// maquina de estados para la fecha
+enum datesate{
+    initState,
+    yearState,
+    monthState,
+    dayState,
+    hourState,
+    minuteState,
+    secondState
+};
+
 //=====[Declarations (prototypes) of public functions]=========================
 
 void pcSerialComInit();
